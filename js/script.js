@@ -6,7 +6,6 @@ const resultsSection = document.getElementById('results');
 const resultsH2 = document.getElementById('resultsH2');
 const cardsElement = document.getElementById('cards');  
 
-
 //Funções de feedback
 function showLoading() {
     feebackElement.className = 'feedback feedback--loading'; //feedback de carregamento

@@ -39,12 +39,15 @@ estante-de-livros/
 
 ### Tratamento de Erros
 
+ - Falha de conexão com a API
+![alt text](networkError.png)
+
  - Resposta Inválida
-![alt text](image.png)
+![alt text](notFound.png)
 
  - Aunsência de dados
-![alt text](image-1.png)
- 
+![alt text](dataMissing.png)
+
 
 
 ---

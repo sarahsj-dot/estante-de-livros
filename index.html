@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estante de Livros</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header class="header">
+        <div class="headerI">
+            <h1 class="headerTitle">Estante de Livros</h1>
+            <p class="headerSubtitle">Encontre seus livros favoritos</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Seção de busca -->
+        <section class="search">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Digite o título do livro...">
+                <button id="searchButton" class="srchBttn-box">Pesquisar</button>
+            </div>
+        </section>
+
+        <div id="feedback" class="feedback hidden" role="alert"></div>
+
+            <!-- Seção de resultados -->
+            <section id="results" class="results hidden">
+                <h2 class="resultsH2" id="resultsH2"></h2>
+                <div id="cards" class="cards"></div>
+            </section>
+    </main>
+
+    <!-- Seção de rodapé -->
+    <footer class="footer">
+        <p>© 2026 Estante de Livros. Dados fornecidos por <a href="https://openlibrary.org" target="_blank">Open Library</a></p>
+    </footer>
+
+    <script src="js/api.js"></script>
+    <script src="js/script.js"></script>  
+    <script src="js/main.js"></script>
+</body>
+</html>

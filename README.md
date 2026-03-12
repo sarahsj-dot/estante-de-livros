@@ -1,10 +1,10 @@
-# Estante de Livros
+## Estante de Livros
 
 Aplicação web que busca livros na **Open Library API** usando HTML, CSS e JavaScript com programação assíncrona.
 
 ---
 
-## Estrutura do Projeto
+### Estrutura do Projeto
 ```
 estante-de-livros/
 ├── index.html        <- Estrutura da página
@@ -19,14 +19,14 @@ estante-de-livros/
 
 ---
 
-## API Utilizada
+### API Utilizada
 
 **Open Library Search API**
-`https://openlibrary.org/search.json` — pública e gratuita, sem necessidade de cadastro.
+`https://openlibrary.org/search.json` - pública e gratuita, sem necessidade de cadastro.
 
 ---
 
-## Funcionalidades
+### Funcionalidades
 
 - Busca de livros por título ou autor
 - Exibição em cards com capa, título, autor e ano
@@ -37,7 +37,7 @@ estante-de-livros/
 
 ---
 
-## Responsabilidade de cada arquivo JS
+### Responsabilidade de cada arquivo JS
 
 | Arquivo | Responsabilidade |
 |---|---|
@@ -47,7 +47,7 @@ estante-de-livros/
 
 ---
 
-## Tecnologias
+### Tecnologias
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
@@ -56,4 +56,4 @@ estante-de-livros/
 
 ---
 
-> Desenvolvido como atividade da **Sprint — Consumo de API**
+> Desenvolvido como atividade da **Sprint - Consumo de API**

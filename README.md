@@ -9,8 +9,7 @@ Aplicação web que busca livros na **Open Library API** usando HTML, CSS e Java
 estante-de-livros/
 ├── index.html        <- Estrutura da página
 ├── css/
-│   ├── global.css    <- Reset de estilos padrão do navegador
-│   ├── style.css    <- Estilização completa
+│   ├── style.css     <- Estilização completa
 ├── js/
 │   ├── api.js        <- Requisição à API (fetch + async/await)
 │   ├── script.js     <- Manipulação do DOM (cards, feedback)
@@ -35,6 +34,18 @@ estante-de-livros/
 - Tratamento de erros: sem internet, API offline, campo vazio e sem resultados
 - Interface responsiva para mobile e desktop
 - Programação assíncrona com `async/await`
+
+---
+
+### Tratamento de Erros
+
+ - Resposta Inválida
+![alt text](image.png)
+
+ - Aunsência de dados
+![alt text](image-1.png)
+ 
+
 
 ---
 
